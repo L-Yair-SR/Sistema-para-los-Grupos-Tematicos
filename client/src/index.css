@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .boton{
+        @apply bg-rojo-uam text-white rounded-md mr-5 ml-5;
+    }
+    .botonuea{
+        @apply bg-rojo-uam text-white rounded-md mr-1 ml-1;
+    }
+
+    .botongt{
+        @apply bg-rojo-uam text-white rounded-md mr-1 ml-1;
+    }
+}
